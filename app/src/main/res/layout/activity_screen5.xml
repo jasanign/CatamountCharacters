@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_defaults"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context="edu.wcu.cs.catamountcharacters.Screen5">
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/scr5_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:textSize="25sp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr5_btn1"
+        android:id="@+id/scr5_btn1"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr5_btn2"
+        android:id="@+id/scr5_btn2"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr5_btn3"
+        android:id="@+id/scr5_btn3"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr5_btn4"
+        android:id="@+id/scr5_btn4"
+        />
+    <Button
+        style="@style/button_style1"
+        android:text="@string/scr5_btn5"
+        android:id="@+id/scr5_btn5"
+        />
+
+</LinearLayout>

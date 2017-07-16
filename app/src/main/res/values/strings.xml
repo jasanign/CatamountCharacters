@@ -1,0 +1,40 @@
+<resources>
+    <!-- ........... Screen TWO ........... -->
+    <string name="app_name">Catamount Characters</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="scr2_btn1">1 Letter</string>
+    <string name="scr2_btn2">2 Letters</string>
+    <string name="scr2_btn3">Image</string>
+    <string name="scr2_btn4">Information</string>
+
+    <!-- ........... Screen THREE ........... -->
+    <string name="scr3_title">Choose One Character</string>
+    <string name="scr3_description"> Enter one alpha numeric character</string>
+    <string name="scr3_typeChar">Type character:</string>
+    <string name="scr3_4_btn">GO > </string>
+
+    <!-- ........... Screen FOUR ........... -->
+    <string name="scr4_title">Choose Two Characters</string>
+    <string name="scr4_description"> Enter two alpha numeric characters</string>
+    <string name="scr4_typeChar1">Type character 1:</string>
+    <string name="scr4_typeChar2">Type character 2:</string>
+
+    <!-- ........... Screen FIVE ........... -->
+    <string name="scr5_title">Choose Image</string>
+    <string name="scr5_btn1">Catamount</string>
+    <string name="scr5_btn2">Tower</string>
+    <string name="scr5_btn3">Computer</string>
+    <string name="scr5_btn4">Science</string>
+    <string name="scr5_btn5">2016</string>
+
+
+    <!-- ........... Screen EIGHT ........... -->
+    <string name="scr8_title">About Screen</string>
+    <string name="my_photo">My Photo</string>
+    <string name="scr8_dvlped_by">Developed By:</string>
+    <string name="scr8_my_name">Gajjan Jasani</string>
+    <string name="email">Email:</string>
+    <string name="email_id">jasanign@yahoo.com</string>
+    <string name="website">Website:</string>
+    <string name="my_website">www.linkedin.com/in/gjasani</string>
+</resources>

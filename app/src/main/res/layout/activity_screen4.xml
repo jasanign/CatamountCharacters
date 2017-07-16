@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/activity_defaults"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context="edu.wcu.cs.catamountcharacters.Screen4">
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/scr4_title"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/scr4_description"
+        android:textSize="22sp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/scr4_typeChar1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/scr4_edTxt1"/>
+
+    <TextView
+        style="@style/txt_view"
+        android:layout_weight="1"
+        android:text="@string/scr4_typeChar2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/scr4_edTxt2"/>
+
+    <Button
+        style="@style/button_style1"
+        android:layout_weight="1"
+        android:id="@+id/scr4_btn1"
+        android:text="@string/scr3_4_btn"/>
+
+</LinearLayout>
